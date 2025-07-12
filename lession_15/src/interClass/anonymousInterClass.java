@@ -17,7 +17,7 @@ public class anonymousInterClass {
             }
         }.swim();
 
-        //匿名类可用以减少创建类的开销，现场创建匿名类来实现多态
+        //匿名类可用以减少创建新类的开销，现场创建匿名类重写抽象方法来实现多态
         print(new Animal(){
             public void eat(){
                 System.out.println("狗吃骨头");
