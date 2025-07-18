@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -16,7 +18,7 @@ public class iterator {
         while (iterator.hasNext()){
             System.out.print(iterator.next()+", ");
             //这里不能用collection的方法删除元素，会引发并发修改异常
-            //list.remove(iterator.next());
+            //list.remove(collections.iterator.next());
             //应当用迭代器自带的remove方法进行删除！
             iterator.remove();
         }
