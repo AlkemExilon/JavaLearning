@@ -1,3 +1,5 @@
+package stream;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.function.Function;

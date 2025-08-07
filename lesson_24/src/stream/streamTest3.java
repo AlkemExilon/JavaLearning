@@ -1,3 +1,5 @@
+package stream;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Map;
@@ -16,5 +18,6 @@ public class streamTest3 {
                 toMap(s->s.split("-")[0],s->Integer.parseInt(s.split("-")[1])));
 
         System.out.println(list1);
+        //toMap方法的两个形参对应键和值，因此传入一个将stream中数据转为键和值的方法即可
     }
 }

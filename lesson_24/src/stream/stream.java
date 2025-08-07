@@ -1,8 +1,10 @@
+package stream;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-//stream 初次测试
+//stream.stream 初次测试
 public class stream {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
