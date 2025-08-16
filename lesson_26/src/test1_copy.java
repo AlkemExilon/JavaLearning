@@ -1,11 +1,9 @@
-package IO.output;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 //输入输出流综合测试，尝试拷贝文件
-public class test3_copy {
+public class test1_copy {
     public static void main(String[] args) throws IOException {
 
         //参数是要拷贝读入的文件

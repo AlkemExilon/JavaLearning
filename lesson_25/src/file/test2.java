@@ -16,6 +16,6 @@ public class test2 {
         File f3=new File("F:\\tmp\\NewDir\\aaa\\bbb\\ccc");
         System.out.println(f3.mkdirs());//  注意，文件路径里不区分大小写！
 
-        f1.delete();//  删除，文件会直接删除不走回收站，文件夹则会1先判断是否为空
+        f1.delete();//  删除，文件会直接删除不走回收站，文件夹则会先判断是否为空
     }
 }
